@@ -7,6 +7,6 @@ class Anagram:
         return[w for w in possible_anagrams if sorted (w.lower())==word_sorted
                and w.lower()!=self.word]
     
-listen=Anagram("listen")  
-listen.match(['enlists','google','inlets','banana'])
-print(matches)
+# listen=Anagram("listen")  
+# listen.match(['enlists','google','inlets','banana'])
+# print(matches)
